@@ -5,7 +5,9 @@
 }
 
 body {
-    background-color:#DDD7D9;    
+    background-color:#DDD7D9;
+    min-width: 380px;
+    margin-bottom: 20px;
 }
 
 #container {
@@ -20,11 +22,12 @@ h1 {
     color: white;
     min-width: 300px;
     text-align: center;
+    margin: 15px 0;
 }
 
 #input-el {
     border: 1px solid #DDD7D9;
-    height: 80px;
+    height: 70px;
     width: 180px;
     font-size: 40px;
     text-align: center;
@@ -58,7 +61,8 @@ h1 {
 
 .result {
     background-color:#FBF5F3;
-    margin-top: 20px;
+    margin-top: 10px;
+    min-height: 70px;
     border-radius: 8px;
     width: 80%;
     padding: 20px 15px;
